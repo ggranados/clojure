@@ -1,5 +1,5 @@
 (ns new-cursive-project.hello)
 
-(defn foo  [x]
+(defn greet  [x]
   (println "Hello, World!", x))
 
