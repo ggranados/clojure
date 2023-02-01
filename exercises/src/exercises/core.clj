@@ -1,6 +1,6 @@
-(ns exercises.core)
+(ns exercises.core
+  (:require [exercises.factorial :as fact]))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(def n 5)
+
+(println "Factorial of " n " is =" (fact/fact n))
