@@ -3,4 +3,4 @@
 
 (def n 5)
 
-(println "Factorial of " n " is =" (fact/fact n))
+(println "Factorial of " n " is =" (fact/fact-basic n))
